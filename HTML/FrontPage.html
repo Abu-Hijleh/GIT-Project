@@ -1,0 +1,31 @@
+<html>
+<link rel="stylesheet" href="../CSS/FrontPage.css">
+
+<head>
+</head>
+
+<body>
+  <h1> Welcome Message </h1>
+  <br>
+  <form action="/button.php" method="get">
+  <p> What is your goal for today? </p>
+  <label for="hours">Hours</label>
+  <input type="number" id="goal" name="goal"><br><br>
+  </form>
+  <a href="SessionSettings.html"><button type="button" >Start a study session!</button></a>
+  <p> You have studied for (get number of hours) hours today </p>
+
+  <h2>Add to your to do list </h2>
+
+  <ul id="ToDo"></ul>
+
+
+  <input type="text" id="myInput" placeholder="Title...">
+  <span onclick="newElement()" class="addBtn">Add</span>
+
+  <script src="../JS/FrontPage.js"></script>
+  <br>
+
+
+</body>
+</html>
